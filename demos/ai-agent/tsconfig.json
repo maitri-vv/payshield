@@ -1,0 +1,18 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "module": "commonjs",
+    "outDir": "dist",
+    "noEmit": false,
+    "baseUrl": ".",
+    "paths": {
+      "@payshield/sdk": [
+        "../../packages/sdk/src"
+      ]
+    }
+  },
+  "include": [
+    "src/**/*.ts",
+    "../../packages/sdk/src/**/*.ts"
+  ]
+}

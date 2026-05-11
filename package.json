@@ -1,0 +1,17 @@
+{
+  "name": "payshield",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*",
+    "demos/*"
+  ],
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build"
+  },
+  "devDependencies": {
+    "turbo": "^2.5.0",
+    "typescript": "^5.4.5"
+  }
+}
