@@ -44,7 +44,7 @@ npm run build --workspace @payshield/sdk
 npm run dev
 ```
 
-Open the dashboard at `http://localhost:3000/query`. The protected API runs at `http://localhost:3001/api/paysh-intelligence`.
+Open the dashboard at `http://localhost:3000/query`. The protected API runs at `/api/paysh-intelligence`.
 
 ## Agent Demo
 
