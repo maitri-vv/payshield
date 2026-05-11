@@ -1,3 +1,4 @@
+export const runtime = "nodejs";
 import { Connection, Keypair, LAMPORTS_PER_SOL, PublicKey, SystemProgram, Transaction, sendAndConfirmTransaction } from "@solana/web3.js"
 import bs58 from "bs58"
 import { NextResponse, type NextRequest } from "next/server"

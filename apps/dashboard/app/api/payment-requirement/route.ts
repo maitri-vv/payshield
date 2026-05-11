@@ -1,4 +1,5 @@
-﻿import { NextResponse, type NextRequest } from "next/server"
+﻿export const runtime = "nodejs";
+import { NextResponse, type NextRequest } from "next/server"
 
 export const dynamic = "force-dynamic"
 
