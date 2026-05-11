@@ -5,7 +5,7 @@ import { NextResponse, type NextRequest } from "next/server"
 
 export const dynamic = "force-dynamic"
 
-const SERVER_URL = "http://localhost:3001/api/paysh-intelligence"
+const SERVER_URL = `${process.env.NEXT_PUBLIC_API_BASE_URL}/api/paysh-intelligence`
 
 interface AgentQueryRequest {
   category?: string
